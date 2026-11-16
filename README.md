@@ -8,5 +8,3 @@ The Kinetra website: one static page, no build step, no cookies, nothing loaded 
   Roboto Flex, SIL OFL 1.1); `python3 brand/use_logo.py a-orbit|b-k|c-brackets` puts one into `assets/`.
   `brand/preview.html` compares them.
 - `.htaccess` hides `brand/`, this file and `.git` from the web.
-
-Kinetra is a trading name of Alterflow Ltd.

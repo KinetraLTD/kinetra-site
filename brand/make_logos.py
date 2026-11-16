@@ -46,7 +46,8 @@ def arc(cx, cy, r, a0, a1):
 # --- Marks: 64x64 artwork. `fg` is the colour that flips between light and dark backgrounds.
 def mark_orbit(fg, accent):
     # A ring with a gap, and a dot travelling along it: always on, always moving.
-    return (f'<path d="{arc(32, 32, 22, -20, 290)}" fill="none" stroke="{fg}" stroke-width="8" '
+    # The dot rides on the arc's end; the clear space ahead of it (to -13°) is ~5 units.
+    return (f'<path d="{arc(32, 32, 22, -13, 290)}" fill="none" stroke="{fg}" stroke-width="8" '
             f'stroke-linecap="round"/>'
             f'<circle cx="{32 + 22 * math.cos(math.radians(-55)):.2f}" '
             f'cy="{32 + 22 * math.sin(math.radians(-55)):.2f}" r="7" fill="{accent}"/>')
