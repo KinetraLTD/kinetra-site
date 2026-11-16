@@ -3,7 +3,7 @@ Options -Indexes
 DirectoryIndex index.html
 
 # Only the website is public: hide the repository and the logo sources.
-RedirectMatch 404 ^/(\.git|\.github|brand|README\.md|\.gitignore)(/|$)
+RedirectMatch 404 ^/(\.git|\.github|brand|tools|README\.md|\.gitignore)(/|$)
 
 <IfModule mod_headers.c>
   Header always set X-Content-Type-Options "nosniff"

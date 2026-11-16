@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AOD+ Privacy Policy · Kinetra</title>
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="/assets/mark.svg" type="image/svg+xml">
+  <link rel="preload" href="/assets/fonts/roboto-flex.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/brand.css">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap top-row">
+      <a class="logo" href="/" aria-label="Kinetra home">
+        <picture>
+          <source srcset="/assets/logo-dark.svg" media="(prefers-color-scheme: dark)">
+          <img src="/assets/logo-light.svg" alt="Kinetra" height="34">
+        </picture>
+      </a>
+      <nav aria-label="Language">
+        <a href="#en">English</a>
+        <a href="#it" lang="it" class="nav-cta">Italiano</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap doc">
+<section id="en" lang="en"><div class="markdown-heading"><h1 class="heading-element">AOD+ — Privacy Policy</h1><a id="aod--privacy-policy" class="anchor" aria-label="Permalink: AOD+ — Privacy Policy" href="#aod--privacy-policy"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><em>Last updated: 16 November 2026</em></p>
+<p>AOD+ ("the app") is an always-on display for Android by Kinetra, published on Google Play by
+<strong>Alessandro D'Adamo</strong>, based in Portugal ("we", "us"), the data controller for the data described in
+section 4. Contact: <a href="mailto:a.dadamo@kinetra.uk">a.dadamo@kinetra.uk</a></p>
+<div class="markdown-heading"><h2 class="heading-element">1. In short</h2><a id="1-in-short" class="anchor" aria-label="Permalink: 1. In short" href="#1-in-short"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<ul>
+<li>
+<strong>Everything happens on your phone.</strong> AOD+ reads your notifications and calendar only to show them on
+your screen. Nothing it reads is sent to us or to anyone else.</li>
+<li>
+<strong>The app cannot go online.</strong> It does not have Android's internet permission, so it is technically
+unable to send data off your device. There are no AOD+ servers.</li>
+<li>
+<strong>We collect nothing through the app</strong>: no accounts, no ads, no analytics, no tracking, no crash
+reports, no advertising identifiers.</li>
+<li>
+<strong>Nothing is sold or shared</strong>, because we don't have it.</li>
+<li>
+<strong>You are in control</strong>: every permission can be revoked in Android's settings, and uninstalling the
+app removes everything it stored.</li>
+</ul>
+<div class="markdown-heading"><h2 class="heading-element">2. What the app accesses, and why</h2><a id="2-what-the-app-accesses-and-why" class="anchor" aria-label="Permalink: 2. What the app accesses, and why" href="#2-what-the-app-accesses-and-why"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Android shows you each of these before you grant it. AOD+ uses each one only for the purpose below.</p>
+<table>
+<thead>
+<tr>
+<th>Access</th>
+<th>Why AOD+ needs it</th>
+<th>What AOD+ does not do</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<strong>Notification access</strong> (granted by you in Android settings)</td>
+<td>To show your notifications on the always-on screen: app name and icon, title, text, time, and whether it is a conversation or marked important. When you tap a notification, AOD+ opens it as the notification itself would; when you swipe one away, AOD+ clears it on the phone, as the notification shade would.</td>
+<td>It never saves, logs, copies or transmits notification content. Content is kept in memory only while it is on screen. It does not reply to messages or act on notifications except when you tap or swipe them.</td>
+</tr>
+<tr>
+<td>
+<strong>Calendar, read only</strong> (<code>READ_CALENDAR</code>)</td>
+<td>To show your next events: title, start and end time, all-day flag, colour, whether you declined it.</td>
+<td>It cannot create, change or delete events. Nothing is stored or transmitted.</td>
+</tr>
+<tr>
+<td>
+<strong>List of installed apps</strong> (apps with a launcher icon)</td>
+<td>To show which app a notification comes from, for the per-app settings screen, and to suggest your work apps in the Work preset.</td>
+<td>The list is not stored except for the package names of apps you configure, and it never leaves the phone.</td>
+</tr>
+<tr>
+<td>
+<strong>Notifications</strong> (<code>POST_NOTIFICATIONS</code>) and <strong>full-screen intent</strong> (<code>USE_FULL_SCREEN_INTENT</code>)</td>
+<td>To bring up the always-on screen when the display turns off (Android only allows this through a full-screen notification), and to show the "AOD+ on" status notification that Android requires while the service runs.</td>
+<td>These notifications contain no personal data. You can turn the status notification off.</td>
+</tr>
+<tr>
+<td>
+<strong>Foreground service</strong> (<code>FOREGROUND_SERVICE</code>, <code>FOREGROUND_SERVICE_SPECIAL_USE</code>), <strong>wake lock</strong> (<code>WAKE_LOCK</code>), <strong>start at boot</strong> (<code>RECEIVE_BOOT_COMPLETED</code>)</td>
+<td>To notice when the screen turns off and show the always-on screen, also after a restart.</td>
+<td>They give no access to any data.</td>
+</tr>
+<tr>
+<td>
+<strong>Sensors</strong> (proximity, motion; no permission needed)</td>
+<td>Pocket mode (black screen when covered) and lift to wake, only while the always-on screen is showing.</td>
+<td>Readings are used instantly and never recorded.</td>
+</tr>
+<tr>
+<td>
+<strong>Face or fingerprint</strong> (<code>USE_BIOMETRIC</code>, optional)</td>
+<td>To reveal hidden previews after Android's own face or fingerprint check.</td>
+<td>The check is done by Android. AOD+ only receives "succeeded" or "failed", never images, templates or any biometric data.</td>
+</tr>
+<tr>
+<td>
+<strong>Accessibility service</strong> (optional, "AOD+ · screen lock")</td>
+<td>Only to lock the phone and turn the screen off, as the side key would. You turn it on yourself after an explanation in the app.</td>
+<td>It does not read the screen, receives no events from other apps, and collects nothing.</td>
+</tr>
+<tr>
+<td>
+<strong>Battery optimisation</strong> (your choice in Android settings)</td>
+<td>So Android doesn't stop the service in the background.</td>
+<td>No data involved.</td>
+</tr>
+<tr>
+<td>
+<strong>Google Play billing</strong> (<code>com.android.vending.BILLING</code>) and <strong>network state</strong> (<code>ACCESS_NETWORK_STATE</code>), both added by Google Play's billing library</td>
+<td>To offer the subscription and check whether it is active. The purchase itself happens in the Google Play app.</td>
+<td>AOD+ never sees your payment details. Network state only tells whether a connection exists; without the internet permission AOD+ still cannot use it.</td>
+</tr>
+</tbody>
+</table>
+<p>AOD+ also reads a few system settings so it behaves like the rest of the phone: whether the lock screen
+hides sensitive notification content, the screen brightness, the auto-lock delay, and (on Samsung phones)
+whether Samsung's own always-on display is on. These values are used on the spot and not stored.</p>
+<div class="markdown-heading"><h2 class="heading-element">3. What is stored, and where</h2><a id="3-what-is-stored-and-where" class="anchor" aria-label="Permalink: 3. What is stored, and where" href="#3-what-is-stored-and-where"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Only on your phone, in the app's private storage, which other apps cannot read:</p>
+<ul>
+<li>your settings (for example brightness, active hours, clock style, presets);</li>
+<li>your per-app choices, stored with the app's package name (for example "com.example.mail: always on top");</li>
+<li>technical state: the time of your last unlock (to know which notifications are new), whether a
+subscription is active and when that was last checked, which settings sections you folded;</li>
+<li>Google Play's billing library may keep its own usage statistics on the device. Since AOD+ has no
+internet permission, they cannot be sent.</li>
+</ul>
+<p>No notification or calendar content is ever stored. App data is excluded from Android backups and device
+transfers. Clearing the app's data or uninstalling it deletes all of the above.</p>
+<div class="markdown-heading"><h2 class="heading-element">4. What we receive</h2><a id="4-what-we-receive" class="anchor" aria-label="Permalink: 4. What we receive" href="#4-what-we-receive"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>From the app: nothing.</strong> We have no way to see how you use AOD+ or what it shows.</p>
+<p><strong>If you write to us</strong> (for example with <em>Support → Write</em> in the app, which opens your own email app):
+we receive what you send — your email address, your message and anything you attach. The subject is
+pre-filled with the app version, phone model and Android version to help us answer; you can delete it
+before sending. We use this only to reply to you, keep it only as long as needed to handle your request,
+and never share it. Legal basis (GDPR): our legitimate interest in answering your request.</p>
+<p><strong>From Google Play</strong>: like every developer, we receive reports that Google Play prepares itself — install
+and sales figures, the order number, product, price, country and date of purchases (for accounting and
+refunds), and, if you agreed to share diagnostics with Google, crash and performance statistics collected
+by Android. These are produced by Google, not by AOD+, and we do not use them to identify you.</p>
+<div class="markdown-heading"><h2 class="heading-element">5. Google Play and payments</h2><a id="5-google-play-and-payments" class="anchor" aria-label="Permalink: 5. Google Play and payments" href="#5-google-play-and-payments"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>The subscription and its free trial are sold and managed by Google Play: payment, renewals, cancellation
+and refunds follow Google's terms and <a href="https://policies.google.com/privacy" rel="nofollow">Google's Privacy Policy</a>.
+Google acts as an independent controller of the data it processes. AOD+ only asks the Google Play app on
+your phone whether your subscription is active.</p>
+<div class="markdown-heading"><h2 class="heading-element">6. What we never do</h2><a id="6-what-we-never-do" class="anchor" aria-label="Permalink: 6. What we never do" href="#6-what-we-never-do"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>We do not sell, rent or share personal data; show ads; use analytics or tracking; build profiles; use
+your data to train models; or transfer data to other countries — because AOD+ sends us no data at all.</p>
+<div class="markdown-heading"><h2 class="heading-element">7. Your screen, your choice</h2><a id="7-your-screen-your-choice" class="anchor" aria-label="Permalink: 7. Your screen, your choice" href="#7-your-screen-your-choice"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Whatever AOD+ shows can be seen by people near your phone. By default it follows your lock screen's rule
+for sensitive content; you choose which apps show their full text, which stay hidden until you confirm
+with face or fingerprint, and which don't appear at all. Please check that showing work notifications on
+an always-on screen is allowed by your employer's policies.</p>
+<div class="markdown-heading"><h2 class="heading-element">8. Security</h2><a id="8-security" class="anchor" aria-label="Permalink: 8. Security" href="#8-security"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Data stays in the app's private storage, protected by Android's app sandbox and your device encryption.
+Nothing is transmitted, so nothing can be intercepted on the way.</p>
+<div class="markdown-heading"><h2 class="heading-element">9. Children</h2><a id="9-children" class="anchor" aria-label="Permalink: 9. Children" href="#9-children"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>AOD+ is not directed at children under 13 (or the minimum age in your country) and collects no data from
+anyone.</p>
+<div class="markdown-heading"><h2 class="heading-element">10. Your rights</h2><a id="10-your-rights" class="anchor" aria-label="Permalink: 10. Your rights" href="#10-your-rights"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Under the GDPR you have rights of access, correction, deletion, restriction,
+objection and portability. Because the app does not send us your data, we hold none from your use of
+AOD+; you can delete everything it stored by clearing its data or uninstalling it. For emails you sent
+us, write to the address above and we will answer within one month. You can also complain to the
+Portuguese data protection authority, CNPD (<a href="https://www.cnpd.pt" rel="nofollow">cnpd.pt</a>), or to the data protection
+authority of your country.</p>
+<div class="markdown-heading"><h2 class="heading-element">11. Changes</h2><a id="11-changes" class="anchor" aria-label="Permalink: 11. Changes" href="#11-changes"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>If this policy changes, the new version is published at this address with a new date. If a change would
+let the app collect or send data — which it cannot do today — it would come with an app update and a
+clear notice in the app first.</p>
+<div class="markdown-heading"><h2 class="heading-element">12. Contact</h2><a id="12-contact" class="anchor" aria-label="Permalink: 12. Contact" href="#12-contact"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Alessandro D'Adamo (Kinetra) · Portugal · <a href="mailto:a.dadamo@kinetra.uk">a.dadamo@kinetra.uk</a></p>
+<hr>
+</section>
+<section id="it" lang="it"><div class="markdown-heading"><h1 class="heading-element">AOD+ — Informativa sulla privacy</h1><a id="aod--informativa-sulla-privacy" class="anchor" aria-label="Permalink: AOD+ — Informativa sulla privacy" href="#aod--informativa-sulla-privacy"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><em>Ultimo aggiornamento: 16 novembre 2026</em></p>
+<p>AOD+ («l'app») è un always-on display per Android di Kinetra, pubblicato su Google Play da
+<strong>Alessandro D'Adamo</strong>, con sede in Portogallo («noi»), titolare del trattamento dei dati descritti al
+punto 4. Contatti: <a href="mailto:a.dadamo@kinetra.uk">a.dadamo@kinetra.uk</a></p>
+<div class="markdown-heading"><h2 class="heading-element">1. In breve</h2><a id="1-in-breve" class="anchor" aria-label="Permalink: 1. In breve" href="#1-in-breve"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<ul>
+<li>
+<strong>Tutto avviene sul telefono.</strong> AOD+ legge notifiche e calendario solo per mostrarli sul tuo schermo.
+Niente di ciò che legge viene inviato a noi o a chiunque altro.</li>
+<li>
+<strong>L'app non può andare online.</strong> Non ha il permesso di accesso a internet di Android, quindi
+tecnicamente non può inviare dati fuori dal dispositivo. Non esistono server di AOD+.</li>
+<li>
+<strong>Non raccogliamo nulla tramite l'app</strong>: niente account, pubblicità, statistiche, tracciamento,
+segnalazioni di crash o identificativi pubblicitari.</li>
+<li>
+<strong>Niente viene venduto o condiviso</strong>, perché non l'abbiamo.</li>
+<li>
+<strong>Decidi tu</strong>: ogni permesso si può revocare dalle impostazioni di Android, e disinstallando l'app si
+cancella tutto ciò che ha salvato.</li>
+</ul>
+<div class="markdown-heading"><h2 class="heading-element">2. A cosa accede l'app, e perché</h2><a id="2-a-cosa-accede-lapp-e-perché" class="anchor" aria-label="Permalink: 2. A cosa accede l'app, e perché" href="#2-a-cosa-accede-lapp-e-perché"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Android te li mostra uno per uno prima che tu li conceda. AOD+ usa ciascuno solo per lo scopo indicato.</p>
+<table>
+<thead>
+<tr>
+<th>Accesso</th>
+<th>Perché serve ad AOD+</th>
+<th>Cosa AOD+ non fa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<strong>Accesso alle notifiche</strong> (lo concedi tu nelle impostazioni di Android)</td>
+<td>Mostrare le notifiche sull'always-on display: nome e icona dell'app, titolo, testo, ora, e se si tratta di una conversazione o di una notifica importante. Quando tocchi una notifica, AOD+ la apre come farebbe la notifica stessa; quando la scorri via, AOD+ la elimina dal telefono, come la tendina delle notifiche.</td>
+<td>Non salva, registra, copia né trasmette mai il contenuto delle notifiche. Il contenuto resta in memoria solo mentre è sullo schermo. Non risponde ai messaggi e non agisce sulle notifiche se non quando le tocchi o le scorri via.</td>
+</tr>
+<tr>
+<td>
+<strong>Calendario, in sola lettura</strong> (<code>READ_CALENDAR</code>)</td>
+<td>Mostrare i prossimi eventi: titolo, inizio e fine, giornata intera, colore, se lo hai rifiutato.</td>
+<td>Non può creare, modificare o cancellare eventi. Niente viene salvato o trasmesso.</td>
+</tr>
+<tr>
+<td>
+<strong>Elenco delle app installate</strong> (quelle con un'icona)</td>
+<td>Mostrare da quale app arriva una notifica, per la schermata delle impostazioni per app e per suggerire le app di lavoro nel preset Lavoro.</td>
+<td>L'elenco non viene salvato, salvo il nome di pacchetto delle app che configuri, e non lascia mai il telefono.</td>
+</tr>
+<tr>
+<td>
+<strong>Notifiche</strong> (<code>POST_NOTIFICATIONS</code>) e <strong>schermo intero</strong> (<code>USE_FULL_SCREEN_INTENT</code>)</td>
+<td>Far comparire l'always-on display quando lo schermo si spegne (Android lo permette solo con una notifica a schermo intero) e mostrare la notifica «AOD+ attivo» che Android richiede finché il servizio è attivo.</td>
+<td>Queste notifiche non contengono dati personali. La notifica di stato si può spegnere.</td>
+</tr>
+<tr>
+<td>
+<strong>Servizio in primo piano</strong> (<code>FOREGROUND_SERVICE</code>, <code>FOREGROUND_SERVICE_SPECIAL_USE</code>), <strong>wake lock</strong> (<code>WAKE_LOCK</code>), <strong>avvio all'accensione</strong> (<code>RECEIVE_BOOT_COMPLETED</code>)</td>
+<td>Accorgersi dello spegnimento dello schermo e mostrare l'always-on display, anche dopo un riavvio.</td>
+<td>Non danno accesso ad alcun dato.</td>
+</tr>
+<tr>
+<td>
+<strong>Sensori</strong> (prossimità, movimento; non serve un permesso)</td>
+<td>Modalità tasca (schermo nero se coperto) e riattivazione sollevando il telefono, solo mentre l'always-on display è visibile.</td>
+<td>Le letture si usano al momento e non vengono mai registrate.</td>
+</tr>
+<tr>
+<td>
+<strong>Viso o impronta</strong> (<code>USE_BIOMETRIC</code>, facoltativo)</td>
+<td>Mostrare le anteprime nascoste dopo la verifica di viso o impronta fatta da Android.</td>
+<td>La verifica la fa Android. AOD+ riceve solo «riuscita» o «non riuscita», mai immagini, modelli o altri dati biometrici.</td>
+</tr>
+<tr>
+<td>
+<strong>Servizio di accessibilità</strong> (facoltativo, «AOD+ · blocco schermo»)</td>
+<td>Solo bloccare il telefono e spegnere lo schermo, come il tasto laterale. Lo attivi tu dopo una spiegazione nell'app.</td>
+<td>Non legge lo schermo, non riceve eventi dalle altre app e non raccoglie nulla.</td>
+</tr>
+<tr>
+<td>
+<strong>Ottimizzazione della batteria</strong> (scelta tua nelle impostazioni di Android)</td>
+<td>Evitare che Android fermi il servizio in background.</td>
+<td>Nessun dato coinvolto.</td>
+</tr>
+<tr>
+<td>
+<strong>Fatturazione Google Play</strong> (<code>com.android.vending.BILLING</code>) e <strong>stato della rete</strong> (<code>ACCESS_NETWORK_STATE</code>), aggiunti dalla libreria di pagamento di Google Play</td>
+<td>Offrire l'abbonamento e controllare se è attivo. L'acquisto avviene nell'app Google Play.</td>
+<td>AOD+ non vede mai i tuoi dati di pagamento. Lo stato della rete dice solo se c'è una connessione; senza il permesso internet AOD+ comunque non può usarla.</td>
+</tr>
+</tbody>
+</table>
+<p>AOD+ legge anche alcune impostazioni di sistema per comportarsi come il resto del telefono: se la
+schermata di blocco nasconde i contenuti sensibili delle notifiche, la luminosità dello schermo, il ritardo
+del blocco automatico e (sui telefoni Samsung) se l'always-on display di Samsung è acceso. Questi valori si
+usano al momento e non vengono salvati.</p>
+<div class="markdown-heading"><h2 class="heading-element">3. Cosa viene salvato, e dove</h2><a id="3-cosa-viene-salvato-e-dove" class="anchor" aria-label="Permalink: 3. Cosa viene salvato, e dove" href="#3-cosa-viene-salvato-e-dove"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Solo sul telefono, nella memoria privata dell'app, che le altre app non possono leggere:</p>
+<ul>
+<li>le impostazioni (per esempio luminosità, orari di attività, stile dell'orologio, preset);</li>
+<li>le scelte per app, salvate con il nome di pacchetto dell'app (per esempio «com.example.mail: sempre in
+alto»);</li>
+<li>lo stato tecnico: l'ora dell'ultimo sblocco (per capire quali notifiche sono nuove), se c'è un
+abbonamento attivo e quando è stato controllato, quali sezioni delle impostazioni hai chiuso;</li>
+<li>la libreria di pagamento di Google Play può tenere sul dispositivo proprie statistiche d'uso. Dato che
+AOD+ non ha il permesso internet, non possono essere inviate.</li>
+</ul>
+<p>Il contenuto di notifiche ed eventi non viene mai salvato. I dati dell'app sono esclusi dai backup e dai
+trasferimenti tra dispositivi di Android. Cancellando i dati dell'app o disinstallandola si elimina tutto
+quanto sopra.</p>
+<div class="markdown-heading"><h2 class="heading-element">4. Cosa riceviamo</h2><a id="4-cosa-riceviamo" class="anchor" aria-label="Permalink: 4. Cosa riceviamo" href="#4-cosa-riceviamo"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p><strong>Dall'app: niente.</strong> Non abbiamo modo di sapere come usi AOD+ o cosa mostra.</p>
+<p><strong>Se ci scrivi</strong> (per esempio con <em>Assistenza → Scrivi</em> nell'app, che apre la tua app di posta): riceviamo
+ciò che invii — il tuo indirizzo email, il messaggio ed eventuali allegati. L'oggetto è precompilato con
+versione dell'app, modello del telefono e versione di Android per aiutarci a rispondere; puoi cancellarlo
+prima dell'invio. Usiamo questi dati solo per risponderti, li conserviamo solo per il tempo necessario a
+gestire la richiesta e non li condividiamo. Base giuridica (GDPR): il nostro legittimo interesse a
+rispondere alla tua richiesta.</p>
+<p><strong>Da Google Play</strong>: come ogni sviluppatore riceviamo i rapporti che Google Play prepara da sé — numeri di
+installazioni e vendite, numero d'ordine, prodotto, prezzo, paese e data degli acquisti (per contabilità e
+rimborsi) e, se hai accettato di condividere la diagnostica con Google, statistiche su crash e prestazioni
+raccolte da Android. Li produce Google, non AOD+, e non li usiamo per identificarti.</p>
+<div class="markdown-heading"><h2 class="heading-element">5. Google Play e pagamenti</h2><a id="5-google-play-e-pagamenti" class="anchor" aria-label="Permalink: 5. Google Play e pagamenti" href="#5-google-play-e-pagamenti"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>L'abbonamento e la prova gratuita sono venduti e gestiti da Google Play: pagamento, rinnovi, disdetta e
+rimborsi seguono i termini di Google e la <a href="https://policies.google.com/privacy" rel="nofollow">Norma sulla privacy di Google</a>.
+Google agisce come titolare autonomo dei dati che tratta. AOD+ chiede soltanto all'app Google Play del tuo
+telefono se l'abbonamento è attivo.</p>
+<div class="markdown-heading"><h2 class="heading-element">6. Cosa non facciamo mai</h2><a id="6-cosa-non-facciamo-mai" class="anchor" aria-label="Permalink: 6. Cosa non facciamo mai" href="#6-cosa-non-facciamo-mai"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Non vendiamo, affittiamo né condividiamo dati personali; non mostriamo pubblicità; non usiamo statistiche
+o tracciamento; non creiamo profili; non usiamo i tuoi dati per addestrare modelli; non trasferiamo dati in
+altri paesi — perché AOD+ non ci invia alcun dato.</p>
+<div class="markdown-heading"><h2 class="heading-element">7. Il tuo schermo, la tua scelta</h2><a id="7-il-tuo-schermo-la-tua-scelta" class="anchor" aria-label="Permalink: 7. Il tuo schermo, la tua scelta" href="#7-il-tuo-schermo-la-tua-scelta"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Ciò che AOD+ mostra può essere visto da chi è vicino al telefono. Di default segue la regola della
+schermata di blocco sui contenuti sensibili; scegli tu quali app mostrano il testo completo, quali restano
+nascoste finché non confermi con viso o impronta e quali non compaiono affatto. Verifica che mostrare le
+notifiche di lavoro su un always-on display sia consentito dalle regole del tuo datore di lavoro.</p>
+<div class="markdown-heading"><h2 class="heading-element">8. Sicurezza</h2><a id="8-sicurezza" class="anchor" aria-label="Permalink: 8. Sicurezza" href="#8-sicurezza"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>I dati restano nella memoria privata dell'app, protetti dall'isolamento delle app di Android e dalla
+crittografia del dispositivo. Niente viene trasmesso, quindi niente può essere intercettato.</p>
+<div class="markdown-heading"><h2 class="heading-element">9. Minori</h2><a id="9-minori" class="anchor" aria-label="Permalink: 9. Minori" href="#9-minori"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>AOD+ non è rivolta a minori di 13 anni (o dell'età minima prevista nel tuo paese) e non raccoglie dati di
+nessuno.</p>
+<div class="markdown-heading"><h2 class="heading-element">10. I tuoi diritti</h2><a id="10-i-tuoi-diritti" class="anchor" aria-label="Permalink: 10. I tuoi diritti" href="#10-i-tuoi-diritti"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Il GDPR ti riconosce i diritti di accesso, rettifica, cancellazione, limitazione, opposizione e
+portabilità. Poiché l'app non ci invia i tuoi dati, non ne conserviamo alcuno legato all'uso di AOD+; puoi
+cancellare tutto ciò che ha salvato cancellandone i dati o disinstallandola. Per le email che ci hai
+inviato, scrivi all'indirizzo sopra e ti risponderemo entro un mese. Puoi anche presentare reclamo
+all'autorità portoghese per la protezione dei dati, CNPD (<a href="https://www.cnpd.pt" rel="nofollow">cnpd.pt</a>), o all'autorità
+per la protezione dei dati del tuo paese (in Italia il Garante per la protezione dei dati personali).</p>
+<div class="markdown-heading"><h2 class="heading-element">11. Modifiche</h2><a id="11-modifiche" class="anchor" aria-label="Permalink: 11. Modifiche" href="#11-modifiche"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Se questa informativa cambia, la nuova versione viene pubblicata a questo indirizzo con una nuova data. Se
+una modifica permettesse all'app di raccogliere o inviare dati — cosa che oggi non può fare — arriverebbe
+con un aggiornamento dell'app e con un avviso chiaro nell'app prima.</p>
+<div class="markdown-heading"><h2 class="heading-element">12. Contatti</h2><a id="12-contatti" class="anchor" aria-label="Permalink: 12. Contatti" href="#12-contatti"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>Alessandro D'Adamo (Kinetra) · Portogallo · <a href="mailto:a.dadamo@kinetra.uk">a.dadamo@kinetra.uk</a></p>
+</section>
+  </main>
+
+  <footer class="wrap foot">
+    <div class="foot-row">
+      <span>© 2026 Kinetra</span>
+      <span class="foot-links">
+        <a href="/aodplus/privacy/">AOD+ privacy</a>
+        <a href="/aodplus/terms/">AOD+ terms</a>
+      </span>
+    </div>
+  </footer>
+</body>
+</html>
